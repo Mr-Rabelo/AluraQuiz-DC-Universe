@@ -40,13 +40,14 @@ export default function Home() {
           </Widget.Header>
 
           <Widget.Content>
-            <Form onSubmit={function (event) {
+            <p>Teste seu conhecimento sobre o universo cinematográfico da DC Comics!</p>
+            <Form onSubmit={(event) => {
               event.preventDefault();
               router.push(`/quiz?name=${name}`);
             }}
             >
               <Form.Input
-                onChange={function (infosDoEvento) {
+                onChange={(infosDoEvento) => {
                   // State
                   // name = infosDoEvento.target.value;
                   setName(infosDoEvento.target.value);
@@ -54,8 +55,7 @@ export default function Home() {
                 placeholder="Diz aí seu nome para jogar :)"
               />
               <Form.Button type="submit" disabled={name.length === 0}>
-                Jogar
-                {name}
+                {`Jogar ${name}`}
               </Form.Button>
             </Form>
           </Widget.Content>
@@ -69,7 +69,7 @@ export default function Home() {
         </Widget>
         <Footer />
       </QuizContainer>
-      <GitHubCorner projectUrl="https://github.com/Mr-Rabelo" />
+      <GitHubCorner projectUrl="https://github.com/Mr-Rabelo/AluraQuiz-DC-Universe" />
     </QuizBackground>
   );
 }
