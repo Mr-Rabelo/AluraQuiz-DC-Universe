@@ -4,30 +4,131 @@
     "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
     "questions": [
         {
-          "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-          "title": "Como fazer um seletor por id via CSS?",
+          "image": "https://rageworksmediafiles.s3.amazonaws.com/wp-content/uploads/2020/04/02040818/dcu-logo-770x481.png",
+          "title": "Em que ano surgiu o Universo Extendido da DC?",
           "description": "Essa é pra aquecer",
-          "answer": 2,
+          "answer": 1,
           "alternatives": [
-            ".elemento",
-            "*elemento",
-            "#elemento",
-            "%elemento"
+            "2011",
+            "2013",
+            "2015",
+            "2017"
           ]
         },
 
         {
-          "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-          "title": "Como fazer um seletor por class via CSS?",
-          "description": "Essa é pra aquecer",
+          "image": "https://www.influencive.com/wp-content/uploads/2017/07/superhero.jpg",
+          "title": "Qual foi o primeiro filme do Universo Extendido da DC?",
+          "description": "Essa é mole!",
+          "answer": 0,
+          "alternatives": [
+            "Homem de Aço",
+            "Liga da Justiça",
+            "Batman Vs Superman",
+            "Aves de Rapina"
+          ]
+        },
+
+        {
+          "image": "https://pm1.narvii.com/7570/95ba21f641b9cddde24bc615e1d1e68cabfce71fr1-490-300v2_00.jpg",
+          "title": "Qual foi filme que obteve menor bilheteria do Universo Extendido da DC?",
+          "description": "Começou a complicar!",
           "answer": 1,
           "alternatives": [
-            ".elemento",
-            "*elemento",
-            "#elemento",
-            "%elemento"
+            "Esquadrão Suicida",
+            "Aves de Rapina",
+            "Shazam",
+            "Liga da Justiça"
+          ]
+        },
+
+        {
+          "image": "https://images.indianexpress.com/2018/11/justice-league-1200.jpg",
+          "title": "Qual foi o herói que teve menos tempo de tela nos filmes da DC?",
+          "description": "E agora?",
+          "answer": 3,
+          "alternatives": [
+            "Aquaman",
+            "Shazam",
+            "Flash",
+            "Ciborgue"
+          ]
+        },
+
+        {
+          "image": "https://images.unsplash.com/photo-1497124401559-3e75ec2ed794?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+          "title": "Quantas versões de filmes do Batman foram feitos pela DC até agora?",
+          "description": "'I'm Batman!'",
+          "answer": 2,
+          "alternatives": [
+            "4 versões",
+            "5 versões",
+            "6 versões",
+            "7 versões"
+          ]
+        },
+
+        {
+          "image": "https://images.unsplash.com/photo-1594344041337-0223bd103abe?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+          "title": "Em que ano ocorreu a primeira aparição do Superman nos cinemas?",
+          "description": "Agora eu quero ver ...",
+          "answer": 1,
+          "alternatives": [
+            "1948",
+            "1951",
+            "1978",
+            "1983"
+          ]
+        },
+
+        {
+          "image": "https://images.unsplash.com/photo-1601382270349-49c15bddf738?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+          "title": "Qual foi filme que obteve a maior bilheteria do Universo Extendido da DC?",
+          "description": "Vish, essa vai ser complicada!",
+          "answer": 0,
+          "alternatives": [
+            "Aquaman",
+            "Coringa",
+            "Esquadrão Suicida",
+            "Mulher Maravilha"
+          ]
+        },
+
+        {
+          "image": "https://assets.b9.com.br/wp-content/uploads/2016/05/dc-nova-marca.jpg",
+          "title": "Qual será o próximo longa metragem produzido pela DC que chegará ao cinema?",
+          "description": "Não vale consultar em!",
+          "answer": 2,
+          "alternatives": [
+            "The Flash",
+            "Aquaman 2",
+            "Esquadrão Suicida 2",
+            "The Batman"
+          ]
+        },
+
+        {
+          "image": "https://uploads.jovemnerd.com.br/wp-content/uploads/2020/08/dc-fandome-paineis.jpg",
+          "title": "'O filme, 'The Batman' estreará em 2021'. Essa afirmação está?",
+          "description": "'I am Vengeance!'",
+          "answer": 1,
+          "alternatives": [
+            "Correta",
+            "Falsa"
+          ]
+        },
+
+        {
+          "image": "https://www.elegantthemes.com/blog/wp-content/uploads/2017/03/like-dislike-featured.jpg",
+          "title": "E aí, gostou do Quiz?",
+          "description": "",
+          "answer": 0,
+          "alternatives": [
+            "Claro, agora eu amo a DC!",
+            "Não, prefiro a Marvel!"
           ]
         }
+
     ],
     "external": [
       ""
@@ -40,7 +141,7 @@
         "secondBg": "#2F3144",
         "contrastText": "#FFFFFF",
         "mainColor": "#FFFFFF",
-        "wrong": "#FF5722",
+        "wrong": "#D51201",
         "success": "#4CAF50"
       },
       "borderRadius": "4px"
