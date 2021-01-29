@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import { motion } from 'framer-motion';
 
 import db from '../db.json';
 import Widget from '../source/components/Widget/index';
@@ -35,16 +34,7 @@ export default function Home() {
 
       <QuizContainer>
         <QuizLogo />
-        <Widget 
-          as={motion.section}
-          transition={{delay: 0, duration: 0.5}}
-          variants={{
-            show: {opacity: 1, y: '0'},
-            hidden: { opacity: 0, y: '100%'}
-          }}
-          initial="hidden"
-          animate="show"
-        >
+        <Widget>
           <Widget.Header>
             <h1>DC Cinematic Universe</h1>
           </Widget.Header>
@@ -71,16 +61,7 @@ export default function Home() {
           </Widget.Content>
         </Widget>
 
-        <Widget
-          as={motion.section}
-          transition={{delay: 0.5, duration: 0.5}}
-          variants={{
-            show: {opacity: 1},
-            hidden: { opacity: 0}
-          }}
-          initial="hidden"
-          animate="show"
-        >
+        <Widget>
           <Widget.Content>
             <h1>Quiz da Galera</h1>
             <p>Veja os Quizes que também participaram da Imersão React!</p>
@@ -92,7 +73,7 @@ export default function Home() {
                 return (
                   <li key={linkExterno}>
                     <Widget.Topic
-                      href={`/quiz/${projectName}___${githubUser}`}>
+                      href={linkExterno}>
                       {`${githubUser}/${projectName}`}
                     </Widget.Topic>
                   </li>

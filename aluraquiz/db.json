@@ -1,7 +1,7 @@
 {
     "bg": "https://images.unsplash.com/photo-1514329926535-7f6dbfbfb114?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-    "title": "Quiz CSS da Alura",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "title": "DC Cinematic Universe",
+    "description": "Teste seu conhecimento sobre o universo cinematográfico da DC Comics!",
     "questions": [
         {
           "image": "https://rageworksmediafiles.s3.amazonaws.com/wp-content/uploads/2020/04/02040818/dcu-logo-770x481.png",
@@ -131,7 +131,9 @@
 
     ],
     "external": [
-      ""
+      "https://flash-quiz-next.davidlpc1.vercel.app/",
+      "https://wanda-vision-aluraquiz.marilira.vercel.app/",
+      "https://1sec-quiz.victoroda.vercel.app/"
     ],
     "theme": {
       "colors": {
